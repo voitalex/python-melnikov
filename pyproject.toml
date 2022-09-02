@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "melnikov"
+version = "0.1.0"
+description = ""
+authors = ["AVoytekhovskiy <AVoytekhovskiy@inno.tech>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^7.1.2"
+pre-commit = "^2.20.0"
+pylint = "^2.15.0"
+mypy = "^0.971"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+python_files = "*.py"
